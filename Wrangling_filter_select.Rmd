@@ -165,6 +165,7 @@ movies %>%
   drop_na(budget)
 ```
 
+We remove the year based on our selection, which causes the filter to become ineffective, resulting in a broken code. However, since the budget remains in the data after the select code, the drop_na function for budget may still work.
 
 ## Arrange
 
@@ -193,7 +194,7 @@ movies_2000 %>%
 # Using the original 'movies' data, what is the longest movie? What is the oldest movie?
 ```
 
-
+"The oldest film is 'Blacksmith Scene' from 1893, while the longest is 'The Cure for Insomnia.'"
 
 ## Scavenger Hunt
 
